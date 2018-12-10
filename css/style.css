@@ -58,20 +58,19 @@ h1 {
     font-size: 22px;
     color: #60606e;
     font-weight: bold;
+    text-align: center;
 }
 
-.home-blog-links:hover {
+.home-blog-links>a {
+    font-size: 22px;
+    color: #60606e;
+    font-weight: bold;
+}
+
+.home-blog-links>a:hover {
     color: #60606e;
 }
 
-.home-link {
-    text-align: right;
-}
-
-.slash {
-    padding-left: 30px;
-    color: #60606e;
-}
 
 .main-blog {
     margin-top: 100px;
@@ -420,6 +419,9 @@ h1 {
 @media screen and (max-width: 425px) {
     .search-icon {
         left: 160px;
+    }
+    h1 {
+        font-size: 40px;
     }
 }
 
