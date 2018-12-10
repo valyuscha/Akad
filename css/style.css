@@ -78,7 +78,8 @@ h1 {
 }
 
 .img {
-    width: 600px;
+    /*width: 600px;*/
+    width: 100%;
 }
 
 .main-blog__date-message-like {
@@ -355,4 +356,81 @@ h1 {
 
 .footer-social-icons-ul>li>a:hover{
     color: #000;
+}
+
+@media screen and (max-width: 1200px) {
+    .latest-popular-comments__links {
+        padding: 10px 10px;
+    }
+    .search-icon {
+        left: 120px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .search-icon {
+        left: 320px;
+    }
+    .opinion {
+        text-align: center;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+    .send-email {
+        margin-top: 0;
+    }
+    .footer-text {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .search-icon {
+        left: 230px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .search-icon {
+        left: 200px;
+    }
+    .footer-menu {
+        padding-bottom: 40px;
+    }
+    .footer-ul {
+        flex-direction: column;
+        line-height: 30px;
+    }
+    .footer-free-block {
+        display: none;
+    }
+    .footer-text {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .search-icon {
+        left: 180px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .search-icon {
+        left: 160px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .search-icon {
+        left: 140px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .search-icon {
+        left: 120px;
+    }
 }
