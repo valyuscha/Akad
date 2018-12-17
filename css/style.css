@@ -499,6 +499,9 @@ h1 {
     .search-icon {
         left: 230px;
     }
+    .page-name {
+        margin-top: 100px;
+    }
 }
 
 @media screen and (max-width: 525px) {
