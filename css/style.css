@@ -14,34 +14,30 @@ html, body {
 }
 
 .my-menu {
-    text-align: right;
     padding-top: 55px;
+    text-align: right;
 }
-.my-menu ul {
-    margin: 0;
-    list-style: none;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
+
+.btn-secondary {
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+.btn-secondary:checked {
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+.dropdown-toggle::after {
     display: none;
-    background-color: #7beec7;
-    text-align-all: right;
-}
-
-.my-menu>ul>li>a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.my-menu .title {
-    font-size: 18px;
-    cursor: pointer;
-}
-
-.my-menu.open ul {
-    display: block;
-    margin-top: 20px;
-    margin-bottom: -150px;
 }
 
 .header {
@@ -464,9 +460,6 @@ h1 {
 }
 
 @media screen and (max-width: 991px) {
-    .my-menu {
-        width: 50%;
-    }
     .search-icon {
         left: 320px;
     }
@@ -494,7 +487,7 @@ h1 {
         flex-direction: column;
         line-height: 30px;
     }
-    .extra-block {
+    .footer-free-block {
         display: none;
     }
     .footer-text {
