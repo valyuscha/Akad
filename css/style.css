@@ -266,6 +266,104 @@ h1 {
     font-weight: bold;
 }
 
+.about-us_what-we-do {
+    padding-top: 150px;
+}
+
+.about-us_what-we-do_h2 {
+    color: #60606e;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about-us_what-we-do_h3 {
+    color: #60606e;
+    font-size: 14px;
+    padding: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-us_what-we-do_p {
+    color: #60606e;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.line {
+    content: "";
+    width: 63px;
+    height: 21px;
+    background-color: #7beec7;
+    margin-top: -25px;
+}
+
+.box {
+    position: relative;
+}
+
+.benefits-line {
+    position: absolute;
+    top: 43px;
+    left: calc(50% - 113px);
+    z-index: -5;
+}
+
+.dream-line {
+    position: absolute;
+    top: 43px;
+    left: calc(50% - 132px);
+    z-index: -5;
+}
+
+.some-benefits {
+    padding-top: 163px;
+    text-align: center;
+}
+
+.some-benefits-h2 {
+    color: #60606e;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.some-benefits-p {
+    padding-top: 15px;
+    padding-bottom: 48px;
+}
+
+.my-card {
+    padding-top: 52px;
+}
+
+.my-card-img {
+    width: 40px;
+}
+
+.my-card-h2 {
+    color: #60606e;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.my-card-p {
+    color: #60606e;
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.workers {
+    padding-top: 20px;
+}
+
+.col-2 {
+    max-width: 50px;
+}
+
 .footer-top {
     margin-top: 200px;
     background-color: #7beec7;
@@ -505,6 +603,16 @@ h1 {
     .page-name {
         margin-top: 50px;
     }
+    .workers-img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .my-card-img {
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 525px) {
@@ -513,6 +621,9 @@ h1 {
     }
     .page-name {
         margin-top: 100px;
+    }
+    .my-card-h2 {
+        /*margin-left: 20px;*/
     }
 
 }
